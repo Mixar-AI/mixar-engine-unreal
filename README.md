@@ -7,7 +7,7 @@ experimental `ModelContextProtocol` plugin that ships with the engine), beside
 Epic's toolsets. Nothing in it runs arbitrary code: every tool is purpose-built.
 
 The tools share their names and result shapes with
-[Mixar Link for Godot](https://github.com/satyam-fp/mixar-engine-godot), so the
+[Mixar Link for Godot](https://github.com/Mixar-AI/mixar-engine-godot), so the
 Mixar agent drives either engine with the same calls.
 
 ## Install
@@ -16,7 +16,7 @@ Mixar agent drives either engine with the same calls.
    **Unreal Engine** tab and press **Connect Unreal**. It installs the latest
    release into a project you pick (or a new third-person project), enables the
    plugins below and opens the editor.
-2. By hand: unzip [`MixarLink.zip`](https://github.com/satyam-fp/mixar-engine-unreal/releases/latest/download/MixarLink.zip)
+2. By hand: unzip [`MixarLink.zip`](https://github.com/Mixar-AI/mixar-engine-unreal/releases/latest/download/MixarLink.zip)
    into your project's `Plugins/` folder, enable `ModelContextProtocol`,
    `AllToolsets` (it brings `EditorToolset`, whose Blueprint tools the template
    game and the `blueprint` tool use), `PythonScriptPlugin` and
